@@ -1,0 +1,356 @@
+/* Police font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+h1, h2, h3 {
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+strong {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p, .footerContent ul li a {
+    font-size: 18px;
+    font-family: 'Open Sans';
+}
+
+a {
+    font-size: 14px;    
+    font-family: 'Open Sans';
+}
+/* Grid et disposition des div */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 16px;
+    margin: 0 140px;
+}
+
+main {
+    margin: 160px 0;
+    margin-bottom: 344px;
+}
+
+.nav-bar, .heroContent, .grow, .flowing, .users, .start, .footerContent {
+    grid-column: 1 / 13;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Header Hero et contenue */
+
+.hero {
+    background: url(/img/HERO\ BG.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-bar {
+    margin-top: 48px;
+    max-height: 48px;
+}
+
+.nav-bar .logo {
+    background: transparent url('img/color_logo_transparent copy.png') 0% 0% no-repeat padding-box;
+    width: 200px;
+}
+
+.heroContent {
+    margin: 70px 0;
+}
+
+.heroContent .contentText p {
+    margin-top: 34px;
+    margin-bottom: 47px;
+}
+
+.contentText p {
+    margin: 20px 0;
+}
+
+.heroContent figure {
+    width: 680px;
+}
+
+.contentText {
+    margin-right: 70px;
+    width: 50%;
+}
+
+/* Main et contenue */
+
+.grow, .flowing, .users {
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 16px #0000001A;
+    border-radius: 16px;
+}
+
+.flowing {
+    flex-direction: row-reverse;
+    margin: 40px 0;
+}
+
+.grow figure, .flowing figure, .users figure {
+    width: 440px;
+}
+
+/* Footer et aside */
+
+footer {
+    background-color: #00252E;
+}
+
+.start {
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 52px;
+    box-shadow: 0px 0px 16px #0000001A;
+    border-radius: 16px;
+    position: relative;
+    top: -200px;
+}
+
+/* Boutons */
+.menu-item a {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 11px #00000018;
+    border-radius: 24px;
+    padding: 15px 65px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+.start a, .heroContent .contentText a {
+    padding: 26px 100px;
+    background: #FF52C1 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 13px #00252E39;
+    border-radius: 40px;
+    margin-top: 70px;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+.footerContent {
+    flex-wrap: wrap;
+    margin-top: -250px;
+    padding: 120px 0;
+}
+
+.footerContent ul li a {
+    margin-left: 20px;
+}
+
+.sav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 246px;
+    gap: 10px;
+    width: 380px;
+}
+
+.footerContent .sav li a {
+    font-size: 16px;
+}
+
+.map, .phone, .mail {
+    display: inline-flex;
+}
+
+.links {
+    column-count: 2;
+}
+
+.links li {
+    margin-bottom: 20px;
+}
+
+.social {
+    display: flex;
+}
+
+.social li a {
+    width: 31px;
+    height: 31px;
+    border: 1px solid white;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+}
+
+.social li:first-of-type a img {
+    top: 25%;
+    right: 36%;
+    position: absolute;
+}
+
+.social li:nth-child(2) a img {
+    top: 30%;
+    right: 25%;
+    position: absolute;
+}
+
+.social li:nth-child(3) a img {
+    top: 25%;
+    right: 25%;
+    position: absolute;
+}
+
+.footerContent ul li a {
+    color: white;
+}
+
+.footerContent p {
+    text-align: end;
+    width: 100%;
+    color: white;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 640px) {
+    
+    .hero {
+        background-image: url(../img/HERO\ mobile.png);
+    }
+    h1 {
+        font-size: 24px;
+    }
+    
+    strong {
+        font-size: 18px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+    
+    p, .footerContent ul li a {
+        font-size: 16px;
+    }
+    
+    a {
+        font-size: 10px;    
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        margin: 0 36px;
+    }
+
+    .nav-bar {
+        grid-column: 1 / 5;
+    }
+
+    .heroContent, .grow, .flowing, .users, .start, .footerContent {
+        grid-column: 1 / 5;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    
+    .nav-bar {
+        padding-top: 20px;
+    }
+    
+    .nav-bar .logo {
+        width: 103px;
+    }
+
+    .nav-bar .menu-item a {
+        padding: 5px 23px;
+    }
+
+    .heroContent {
+        margin-top: 0;
+    }
+    
+    .heroContent, main {
+        text-align: center;
+    }
+
+    .heroContent figure {
+        width: initial;
+        margin-top: 56px;
+    }
+
+    main {
+        margin-top: 60px;
+        margin-bottom: 230px;
+    }
+
+    .grow figure, .flowing figure, .users figure {
+        width: initial;
+    }
+
+    .start {
+        width: initial;
+        margin: 0;
+        top: -100px;
+        text-align: center;
+    }
+
+    .start a {
+        margin-top: 20px;
+    }
+
+    .start a, .heroContent .contentText a {
+        padding: 10px 60px;
+    }
+
+    .contentText {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 60px;
+        padding: 0 20px;
+    }
+
+    .footerContent {
+        margin-top: -150px;
+        align-items: baseline;
+        padding-bottom: 50px;
+    }
+
+    .footerContent .links li a {
+        margin-left: 0;
+    }
+
+    .sav {
+        width: 100%;
+    }
+
+    .sav .map figure {
+        min-width: 24px;
+        min-height: 24px;
+    }
+
+    .footerContent .links {
+        column-count: 1;
+        margin: 60px 0;
+    }
+
+    .social {
+        align-self: center;
+    }
+
+    .footerContent p {
+        text-align: center;
+        margin-top: 24px;
+    }
+}

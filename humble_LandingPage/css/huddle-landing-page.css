@@ -1,0 +1,111 @@
+:root {
+
+/* Font/text values */
+--unnamed-font-family-opensans-bold: OpenSans-Bold;
+--unnamed-font-family-opensans-regular: OpenSans-Regular;
+--unnamed-font-family-poppins-semibold: Poppins-SemiBold;
+--unnamed-font-family-poppins-regular: Poppins-Regular;
+--unnamed-font-family-poppins-bold: Poppins-Bold;
+--unnamed-font-style-normal: normal;
+--unnamed-font-weight-normal: normal;
+--unnamed-font-size-14: 14px;
+--unnamed-font-size-16: 16px;
+--unnamed-font-size-18: 18px;
+--unnamed-font-size-20: 20px;
+--unnamed-font-size-24: 24px;
+--unnamed-font-size-28: 28px;
+--unnamed-font-size-40: 40px;
+--unnamed-font-size-48: 48px;
+--unnamed-character-spacing-0: 0px;
+--unnamed-line-spacing-21: 21px;
+--unnamed-line-spacing-24: 24px;
+--unnamed-line-spacing-27: 27px;
+--unnamed-line-spacing-30: 30px;
+--unnamed-line-spacing-36: 36px;
+--unnamed-line-spacing-42: 42px;
+--unnamed-line-spacing-60: 60px;
+--unnamed-line-spacing-72: 72px;
+}
+
+/* Character Styles */
+.sub-tittle {
+font-family: var(--unnamed-font-family-poppins-bold);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-40);
+line-height: var(--unnamed-line-spacing-60);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-00252e);
+}
+.body-text {
+font-family: var(--unnamed-font-family-opensans-regular);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-24);
+line-height: var(--unnamed-line-spacing-36);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-00252e);
+}
+.tiitle {
+font-family: var(--unnamed-font-family-opensans-bold);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-48);
+line-height: var(--unnamed-line-spacing-72);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-00252e);
+}
+.body-text {
+font-family: var(--unnamed-font-family-opensans-regular);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-16);
+line-height: var(--unnamed-line-spacing-24);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-79788c);
+}
+.body-text-mobile {
+font-family: var(--unnamed-font-family-opensans-regular);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-14);
+line-height: var(--unnamed-line-spacing-21);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-808e9a);
+}
+.sub-tittle-mobile {
+font-family: var(--unnamed-font-family-poppins-semibold);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-20);
+line-height: var(--unnamed-line-spacing-30);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-00252e);
+}
+.tiitle-mobile {
+font-family: var(--unnamed-font-family-poppins-bold);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-24);
+line-height: var(--unnamed-line-spacing-36);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-00252e);
+}
+.body-text {
+font-family: var(--unnamed-font-family-opensans-regular);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-18);
+line-height: var(--unnamed-line-spacing-27);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-808e9a);
+}
+.sub-tittle {
+font-family: var(--unnamed-font-family-poppins-regular);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-28);
+line-height: var(--unnamed-line-spacing-42);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-00252e);
+}
